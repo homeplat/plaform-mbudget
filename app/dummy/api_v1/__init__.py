@@ -1,4 +1,3 @@
-from ast import Import
 from flask_restful import Api
 
 from app.dummy.api_v1.resources import DummyApi

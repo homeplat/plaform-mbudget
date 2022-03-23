@@ -9,6 +9,9 @@ pylint = "*"
 pylint-flask = "*"
 flask-restful = "*"
 pytest = "*"
+flask-mongoengine = "*"
+flask-marshmallow = "*"
+marshmallow-mongoengine = "*"
 
 [dev-packages]
 
