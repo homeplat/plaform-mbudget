@@ -12,6 +12,7 @@ pytest = "*"
 flask-mongoengine = "*"
 flask-marshmallow = "*"
 marshmallow-mongoengine = "*"
+mongomock = "*"
 
 [dev-packages]
 

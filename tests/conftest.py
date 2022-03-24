@@ -1,12 +1,12 @@
+import os
 from app import create_app
 import pytest
 
 @pytest.fixture()
 def app():
+    os.environ["FLASK_ENV"] = "testing"
+    
     app = create_app()
-    app.config.update({
-        "TESTING": True,
-    })
 
     # other setup can go here
 
